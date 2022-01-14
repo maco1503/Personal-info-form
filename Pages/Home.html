@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home page</title>
+    <link rel="stylesheet" type="text/css" href="../css/test.css" />
+  </head>
+  <body>
+    <p id="hello" class="main second">hello world</p>
+    <div id="form">
+      
+    <h1 id="clock"></h1>
+    <div id="name_form">
+      <form id="form_name">
+        <p id="enter_your_name">
+          I'd like to know you better using the following questions. So take
+          your time answering =)
+        </p>
+        <input id="name" type="text" placeholder="Please enter your name" />
+      </form>
+    </div>
+    <div id="age_form">
+      <form id="form_age">
+        <p id="enter_your_age">In case you forgot how old are you</p>
+        <input id="date" type="date" placeholder="Enter your birthday" />
+      </form>
+    </div>
+    <div id="questionnaire">
+      <div id="first">
+        <p>How much do you like cats?</p>
+        <label id="cat_radio">
+          <input id="yes" name="option" type="radio" value="a_very_lot" >A very lot</label><br>
+          <input id="lot" name="option" type="radio" value="a_lot" >A lot</input><br>
+          <input id="idk" name="option" type="radio" value="cats?">What are cats?</input><br>
+          <input  id="no" name="option" type="radio" value="no_cats">
+              I'm a terrible person and i don't like cats
+          </input>
+        </label>
+      </div>
+      <div id="second">
+        <p> Where do you live?</p>
+        <label id="city_label">
+          <input id="city_input" type="text" placeholder="city"/>
+        </label>
+      </div>
+      <div id="third">
+        <p>What's your afavorite color or colors?</p>
+        <label id="color">
+          <input id="blue" name="pick_color" type="checkbox" value="blue">blue</input><br>
+          <input id="red"name="pick_color" type="checkbox" value="red">red</input><br>
+          <input id="yellow"name="pick_color" type="checkbox" value="yellow">yellow</input><br>
+          <input id="green"name="pick_color" type="checkbox" value="green">green</input><br>
+          <input id="other"name="pick_color" type="text" placeholder="other"></input>
+          </label>
+      </div>
+      <br><button id="final_submit">Submit your answers</button>
+    </div>
+  </div>
+    <div id="sfarsit">
+      
+      <p id="your_name"></p>
+      <p id="your_age"></p>
+      <p id="your_city"></p>
+      <p id="cats1"></p>
+      <p id="cats2"></p>
+      <p id="colors"></p>
+    </div>
+  </body>
+
+  <script src="../JavaScript/ceas.js"></script>
+  <script src="../JavaScript/salut.js"></script>
+  <script src="../JavaScript/varsta.js"></script>
+  <script src="../JavaScript/cats.js"></script>
+  <script src="../JavaScript/colors.js"></script>
+  <script src="../JavaScript/city.js"></script>
+</html>

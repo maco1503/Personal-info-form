@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+h1 {
+  font-family: 'Orbitron',sans-serif;
+  
+  color: red;
+}
+/*
+p {
+  
+  display: block;
+  color:black;
+  font-size: 69;
+}
+*/
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: navajowhite ;
+}
+#form{
+  padding-left: 50px;
+}
+#sfarsit{
+  display:block;
+  padding-right: 50px;
+}
+p.main{color:red; font-size:100px;}
+p.main.second{color:blue}
+
+#hello{font-weight: normal;}
