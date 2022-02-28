@@ -16,7 +16,7 @@ function currentTime() {
   document.querySelector("#clock").innerText =
     "The time is : " + hours + ":" + minutes + ":" + seconds;
 
-  var t = setTimeout(currentTime, 1000);
+  let t = setTimeout(currentTime, 1000);
 }
 
 function updateTime(k) {
